@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #F7FAFF;
+    --foreground: #111827;
+    --font-inter: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: #0B1120;
+    --foreground: #E6F0FF;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+[dir="rtl"] {
+  font-family: var(--font-inter); /* Can swap to Arabic font like Cairo if needed */
+}
+
+@layer utilities {
+  .glass-card {
+    @apply backdrop-blur-[16px] border border-glass-borderLight bg-glass-light dark:border-glass-borderDark dark:bg-glass-dark rounded-[16px] md:rounded-[24px] shadow-sm;
+  }
+  
+  .glass-card-hover {
+    @apply transition-all duration-300 hover:shadow-neon hover:border-electric-blue hover:bg-opacity-10;
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0,212,255,0.5);
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "colors": {
+        "primary": {
+            "navy": "#0B1120",
+            "navyLight": "#111827",
+            "white": "#F7FAFF",
+            "offWhite": "#E6F0FF"
+        },
+        "accent": {
+            "electricBlue": "#00D4FF",
+            "secondaryBlue": "#008CFF",
+            "successGreen": "#22C55E"
+        },
+        "glass": {
+            "bgDark": "rgba(255,255,255,0.04)",
+            "borderDark": "rgba(255,255,255,0.12)",
+            "bgLight": "rgba(0,0,0,0.04)",
+            "borderLight": "rgba(0,0,0,0.12)"
+        }
+    },
+    "typography": {
+        "fontFamily": "Inter, sans-serif",
+        "weights": {
+            "regular": 400,
+            "medium": 500,
+            "semibold": 600,
+            "bold": 700,
+            "extrabold": 800
+        }
+    },
+    "spacing": {
+        "xs": "8px",
+        "sm": "16px",
+        "md": "24px",
+        "lg": "32px",
+        "xl": "48px",
+        "xxl": "64px"
+    },
+    "radii": {
+        "md": "16px",
+        "lg": "24px",
+        "full": "9999px"
+    },
+    "shadows": {
+        "neon": "0 0 10px rgba(0,212,255,0.4), 0 0 20px rgba(0,212,255,0.2)",
+        "neonStrong": "0 0 15px rgba(0,212,255,0.6), 0 0 30px rgba(0,212,255,0.4)"
+    },
+    "animations": {
+        "transition": "0.3s ease-in-out",
+        "reveal": "0.45s cubic-bezier(0.2, 0.85, 0.2, 1)",
+        "float": "6s ease-in-out infinite"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "Hero": {
+        "headlineHighlight": "Futuristic",
+        "headlineRest": " Digital Agency",
+        "subheadline": "We build visually stunning, high-conversion websites and digital solutions.",
+        "startProject": "Start Project",
+        "viewWork": "View Work"
+    },
+    "Navigation": {
+        "startProject": "Start Project"
+    },
+    "Services": {
+        "title": "Our Services",
+        "webDesign": {
+            "title": "Web Design",
+            "desc": "Stunning, high-performance websites."
+        },
+        "digitalMarketing": {
+            "title": "Digital Marketing",
+            "desc": "Data-driven campaigns that convert."
+        },
+        "aiVideo": {
+            "title": "AI Video & Content",
+            "desc": "Next-gen content generation."
+        },
+        "whatsappAds": {
+            "title": "WhatsApp Automation",
+            "desc": "Automated messaging & campaigns."
+        },
+        "eMenu": {
+            "title": "Electronic Menus",
+            "desc": "Interactive menus for restaurants."
+        }
+    },
+    "MenuFeature": {
+        "title": "Interactive E-Menu Demo",
+        "call": "Call Us",
+        "website": "Visit Website",
+        "orderNow": "Order via WhatsApp",
+        "simulated": "Simulation: Invoice generated and sent to WhatsApp"
+    },
+    "Portfolio": {
+        "title": "Our Work"
+    },
+    "CaseStudies": {
+        "title": "Impact & Growth",
+        "metrics": {
+            "clients": "Happy Clients",
+            "projects": "Projects Delivered",
+            "roi": "Average ROI"
+        }
+    },
+    "Testimonials": {
+        "title": "Client Feedback"
+    },
+    "CTA": {
+        "title": "Ready to Grow?",
+        "submit": "Send Request",
+        "name": "Your Name",
+        "email": "Email Address",
+        "service": "Service Required"
+    },
+    "Footer": {
+        "rights": "All rights reserved. ASN Technology."
+    }
+}
